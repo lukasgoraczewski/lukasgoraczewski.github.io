@@ -134,8 +134,10 @@
     .then(function (data) {
       games = data.games || [];
       games.forEach(function (game) {
+        var cover = el('img', { src: game.base + game.cover, alt: game.coverAlt || (game.title + ' cover'), loading: 'lazy' });
+        if (game.coverPosition) cover.style.objectPosition = game.coverPosition;
         var btn = el('button', { type: 'button', 'class': 'card', 'aria-label': 'Open ' + game.title }, [
-          el('img', { src: game.base + game.cover, alt: game.coverAlt || (game.title + ' cover'), loading: 'lazy' }),
+          cover,
           el('div', { 'class': 'info' }, [el('h3', { text: game.title }), el('p', { text: game.tagline })])
         ]);
         btn.addEventListener('click', function () { open(game, btn); });

@@ -42,6 +42,7 @@
       "tagline": "Arcade math-training game for children, supporting dyscalculia therapy.",
       "base": "projects/numbala/",
       "cover": "media/cover.jpg",
+      "coverPosition": "8% center",
       "coverAlt": "Numbala key art: the game logo above a smiling girl with purple hair in a red coat and her brown dog, with two award laurels for Indie Prize Best Game Art and Digital Dragons Editor's Choice, both 2018.",
       "trailerFile": "",
       "trailerUrl": "https://www.youtube.com/watch?v=3c-QuRDEE1U",
