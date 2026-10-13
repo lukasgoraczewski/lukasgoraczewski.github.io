@@ -1,0 +1,40 @@
+{
+  "games": [
+    {
+      "slug": "loop-train",
+      "title": "Loop Train",
+      "tagline": "Block-jam puzzle with a looping twist, themed around trains and their passengers.",
+      "base": "projects/loop-train/",
+      "cover": "media/cover.png",
+      "coverAlt": "Loop Train app icon: a yellow train running along a curved dark track against a blue sky.",
+      "trailerFile": "media/trailer.mp4",
+      "trailerAspect": "1080 / 1350",
+      "trailerUrl": "",
+      "screens": [
+        { "file": "media/screens/screen-08.jpg", "alt": "Level 10 on a grey and green board: passenger queues on the left, a numbered tunnel and trains waiting on three tracks, with two ability slots still locked." },
+        { "file": "media/screens/screen-01.jpg", "alt": "Level 6 on a green board: colored trains wait on three tracks at the bottom, passengers queue at stations, and two ability slots are locked until levels 15 and 20." },
+        { "file": "media/screens/screen-02.jpg", "alt": "Level 16 on a pale blue board: a looping track with several passenger queues, a numbered tunnel and trains in red, blue and yellow." },
+        { "file": "media/screens/screen-04.jpg", "alt": "Level 21 on a pale blue board: several passenger queues along the left and trains in many colors circling the track." },
+        { "file": "media/screens/screen-05.jpg", "alt": "Level 26 on a snowy blue board: numbered tunnels, a frozen river crossing the map and trains in yellow, green and pink waiting at the bottom." },
+        { "file": "media/screens/screen-03.jpg", "alt": "Level 31 on a green board: a long queue of colored passengers at the top and trains on tracks around the board, with three ability buttons at the bottom." },
+        { "file": "media/screens/screen-09.jpg", "alt": "Level 43 on a green board: numbered tunnels on the left, trains parked on side tracks and three ability buttons at the bottom." },
+        { "file": "media/screens/screen-06.jpg", "alt": "Level 46 on a sand-colored board: a branching track with numbered tunnels and trains in red, green and blue." },
+        { "file": "media/screens/screen-07.jpg", "alt": "Level 50 on a sand-colored board: a larger layout with two sections, numbered tunnels, passenger queues and trains in several colors." }
+      ],
+      "description": [
+        "Loop Train is a mobile game that combines a looping feel with block-jam mechanics, themed around trains and their passengers."
+      ],
+      "role": "I was the project owner and lead designer. The concept, level design, balance and monetization were mine, and I also made the graphics.",
+      "metrics": [
+        { "label": "D1 retention", "value": "38%" },
+        { "label": "D7 retention", "value": "16%" },
+        { "label": "D30 retention", "value": "7.5%" }
+      ],
+      "monetization": "Ads, rewarded video and IAP.",
+      "stores": [
+        { "type": "google-play", "url": "https://play.google.com/store/apps/details?id=com.bugbomb.looptrain&hl=pl", "available": true },
+        { "type": "app-store", "url": "https://apps.apple.com/pl/app/loop-train-3d/id6746925538?l=pl", "available": true }
+      ]
+    }
+  ]
+}

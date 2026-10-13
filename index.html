@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lukasz Goraczewski – Mobile Game Developer</title>
+  <meta name="description" content="Portfolio of Lukasz Goraczewski, Lead Designer and Product Owner of mobile games.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <span class="brand">Lukasz Goraczewski</span>
+    <nav class="contact" aria-label="Contact">
+      <a href="mailto:lukas.goraczewski@gmail.com">lukas.goraczewski@gmail.com</a>
+      <a href="https://www.linkedin.com/in/lukasz-goraczewski-5286aa3a6/" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>Lukasz Goraczewski</h1>
+      <p>Lead Designer and Product Owner with 10 years of experience building mobile games, from initial concept to long-term success. I design for retention through thoughtful mechanics, polished interactions and iterative, data-driven testing, always aiming to build products that feel crafted with genuine care.</p>
+    </section>
+
+    <section aria-labelledby="games-title">
+      <h2 id="games-title">Games</h2>
+      <ul class="grid" id="grid"></ul>
+      <noscript><p>Please enable JavaScript to browse the games.</p></noscript>
+    </section>
+  </main>
+
+  <dialog id="detail" aria-labelledby="detail-title">
+    <button type="button" class="close" id="close" aria-label="Close">&times;</button>
+    <div id="detail-body"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
