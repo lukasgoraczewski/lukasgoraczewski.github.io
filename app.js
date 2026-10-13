@@ -28,7 +28,7 @@
     var names = {
       'google-play': { small: 'GET IT ON', big: 'Google Play' },
       'steam': { small: 'AVAILABLE ON', big: 'Steam' },
-      'app-store': { small: 'DOWNLOAD ON THE', big: 'App Store' }
+      'nintendo-switch': { small: 'AVAILABLE ON', big: 'Nintendo Switch' },      'app-store': { small: 'DOWNLOAD ON THE', big: 'App Store' }
     };
     var n = names[store.type] || { small: 'STORE', big: store.type };
     if (store.available === false) {

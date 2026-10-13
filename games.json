@@ -35,6 +35,40 @@
         { "type": "google-play", "url": "https://play.google.com/store/apps/details?id=com.bugbomb.looptrain&hl=pl", "available": true },
         { "type": "app-store", "url": "https://apps.apple.com/pl/app/loop-train-3d/id6746925538?l=pl", "available": true }
       ]
+    },
+    {
+      "slug": "numbala",
+      "title": "Numbala",
+      "tagline": "Arcade math-training game for children, supporting dyscalculia therapy.",
+      "base": "projects/numbala/",
+      "cover": "media/cover.jpg",
+      "coverAlt": "Numbala key art: the game logo above a smiling girl with purple hair in a red coat and her brown dog, with two award laurels for Indie Prize Best Game Art and Digital Dragons Editor's Choice, both 2018.",
+      "trailerFile": "",
+      "trailerUrl": "https://www.youtube.com/watch?v=3c-QuRDEE1U",
+      "screens": [
+        { "file": "media/screens/screen-01.jpg", "alt": "A small spacecraft flies through a desert-like level and fires at a target; a number strip with a highlighted 6 is at the bottom, under the caption 'Cool game that trains math'." },
+        { "file": "media/screens/screen-02.jpg", "alt": "A spacecraft in a green forest level with the task 1 + 3 shown at the top and a number strip at the bottom, under the caption 'Add, subtract and avoid missiles'." },
+        { "file": "media/screens/screen-03.jpg", "alt": "The spacecraft collection screen showing 'Primala' with a girl and her dog in space helmets, a star counter at 0 of 24 and the caption 'Collect new spacecraft'." },
+        { "file": "media/screens/screen-04.jpg", "alt": "A boss encounter with a robot pirate on the right and the player's spacecraft on the left, under the caption 'Face the mean Corsair!'." }
+      ],
+      "description": [
+        "Numbala is an arcade game and cognitive training for children. It combines a dynamic shooter mechanic with learning math and supports dyscalculia therapy.",
+        "It was released in October 2018 on Nintendo Switch, iOS and Android and built in Unity. Today it is available only on Nintendo Switch; the iOS and Android versions have been withdrawn.",
+        "The team had 10 people: developers, artists and researchers in cognitive science and computer science."
+      ],
+      "role": "I was the idea author and project owner. I was responsible for game design and level design, and I led the scientific research connected with the game, which resulted in a scientific publication.",
+      "metrics": [
+        { "label": "Indie Prize, Casual Connect London, 2018", "value": "Best Game Art" },
+        { "label": "Indie Showcase, Digital Dragons, Cracow, 2018", "value": "Editor's Choice" },
+        { "label": "Independent Games Festival", "value": "Finalist" },
+        { "label": "Apple App Store", "value": "App of the Day" }
+      ],
+      "monetization": "Premium.",
+      "stores": [
+        { "type": "nintendo-switch", "url": "https://www.nintendo.com/us/store/products/numbala-switch/", "available": true },
+        { "type": "google-play", "available": false },
+        { "type": "app-store", "available": false }
+      ]
     }
   ]
 }

@@ -1,64 +1,71 @@
 ---
 title: "Numbala"
 slug: "numbala"
-tagline: "Gra zręcznościowa i trening kognitywny dla dzieci – strzelanka ucząca matematyki, wspiera terapię dyskalkulii."
+draft: true
+tagline: "Arcade math-training game for children, supporting dyscalculia therapy."
 status: "wydana"
 release_date: "2018-10"
-platforms: ["Nintendo Switch", "iOS", "Android"]
+platforms: [Nintendo Switch, iOS (withdrawn), Android (withdrawn)]
 engine: "Unity"
-genre: "Arcade/edukacyjna"
+genre: "arcade, educational"
 monetization: "premium"
-team_size: "TODO: do uzupełnienia"
-role: "Pomysłodawca, project owner, game design, level design, badania naukowe (powstała publikacja naukowa)"
+team_size: 10
+role: "Idea author and project owner: game design, level design and the scientific research behind the game, which resulted in a scientific publication."
 duration: "TODO: do uzupełnienia"
 links:
-  store_ios: "TODO: do uzupełnienia"
-  store_android: "TODO: do uzupełnienia"
-  store_switch: "https://www.nintendo.com/us/store/products/numbala-switch/?srsltid=AU7gw4WS6_6hRWAIR-mlIGpgA6AfGH4ups06FkLrrQB4d6zOJPTJtZtx"
+  store_ios: ""
+  store_android: ""
+  store_switch: "https://www.nintendo.com/us/store/products/numbala-switch/"
   trailer_url: "https://www.youtube.com/watch?v=3c-QuRDEE1U"
 metrics:
-  - label: "Nagroda Best Game Art"
-    value: "Indie Prize, Londyn"
-    source: "TODO: do uzupełnienia (rok/edycja)"
-  - label: "Editors' Choice"
-    value: "Gala Digital Dragons"
-    source: "TODO: do uzupełnienia (rok/edycja)"
-  - label: "Finalista"
-    value: "Independent Games Festival"
+  - label: "Indie Prize, Best Game Art"
+    value: "Award, 2018"
+    source: "Casual Connect London, 2018 (laurels on the game's key art)"
+  - label: "Indie Showcase, Editor's Choice"
+    value: "Award, 2018"
+    source: "Digital Dragons, Cracow, 2018 (laurels on the game's key art)"
+  - label: "Independent Games Festival"
+    value: "Finalist"
     source: "TODO: do uzupełnienia (rok/edycja)"
   - label: "App of the Day"
     value: "Apple App Store"
     source: "TODO: do uzupełnienia (data promocji)"
 media:
-  cover: "TODO: do uzupełnienia"
-  screens: []
+  cover: "media/cover.jpg"
+  screens:
+    - "media/screens/screen-01.jpg"
+    - "media/screens/screen-02.jpg"
+    - "media/screens/screen-03.jpg"
+    - "media/screens/screen-04.jpg"
   trailer_file: ""
-alt_texts: {}
+alt_texts:
+  media/cover.jpg: "Numbala key art: the game logo above a smiling girl with purple hair in a red coat and her brown dog, with two award laurels for Indie Prize Best Game Art and Digital Dragons Editor's Choice, both 2018."
+  media/screens/screen-01.jpg: "A small spacecraft flies through a desert-like level and fires at a target; a number strip with a highlighted 6 is at the bottom, under the caption 'Cool game that trains math'."
+  media/screens/screen-02.jpg: "A spacecraft in a green forest level with the task 1 + 3 shown at the top and a number strip at the bottom, under the caption 'Add, subtract and avoid missiles'."
+  media/screens/screen-03.jpg: "The spacecraft collection screen showing 'Primala' with a girl and her dog in space helmets, a star counter at 0 of 24 and the caption 'Collect new spacecraft'."
+  media/screens/screen-04.jpg: "A boss encounter with a robot pirate on the right and the player's spacecraft on the left, under the caption 'Face the mean Corsair!'."
 captions: {}
-draft: true
 ---
 
-## O grze
+## About the game
 
-Numbala to gra zręcznościowa i trening kognitywny dla dzieci, łączący dynamiczną mechanikę strzelanki z nauką matematyki. Gra wspomaga terapię dyskalkulii. Wydana w październiku 2018 na Nintendo Switch, iOS i Android, zbudowana w Unity.
+Numbala is an arcade game and cognitive training for children. It combines a dynamic shooter mechanic with learning math and supports dyscalculia therapy. It was released in October 2018 on Nintendo Switch, iOS and Android and built in Unity. Today it is available only on Nintendo Switch; the iOS and Android versions have been withdrawn.
 
-## Moja rola
+## My role
 
-Byłem pomysłodawcą i project ownerem projektu. Odpowiadałem za game design i level design, a także prowadziłem badania naukowe związane z grą, w efekcie których powstała publikacja naukowa.
+I was the idea author and project owner. I was responsible for game design and level design, and I led the scientific research connected with the game, which resulted in a scientific publication. The team had 10 people: developers, artists and researchers in cognitive science and computer science.
 
-## Wyzwania i decyzje
+## Challenges and decisions
 
-- **Problem:** koordynacja pracy między zespołem developerskim a naukowcami pracującymi nad warstwą terapeutyczną gry.
-- **Decyzja:** TODO: do uzupełnienia (jak konkretnie rozwiązałem problem koordynacji).
-- **Efekt:** gra została nagrodzona Best Game Art na festiwalu Indie Prize w Londynie, otrzymała Editors' Choice podczas gali Digital Dragons, zakwalifikowała się do ścisłego finału Independent Games Festival oraz otrzymała promocję App of the Day na iOS.
+TODO: do uzupełnienia
 
-## Efekty
+## Results
 
-- Nagroda Best Game Art, Indie Prize (Londyn) – TODO: do uzupełnienia (rok/edycja).
-- Editors' Choice, gala Digital Dragons – TODO: do uzupełnienia (rok/edycja).
-- Finał Independent Games Festival – TODO: do uzupełnienia (rok/edycja).
-- App of the Day, Apple App Store – TODO: do uzupełnienia (data promocji).
+- Indie Prize, Best Game Art, Casual Connect London, 2018.
+- Indie Showcase, Editor's Choice, Digital Dragons, Cracow, 2018.
+- Finalist at the Independent Games Festival. TODO: rok/edycja.
+- App of the Day on the Apple App Store. TODO: data promocji.
 
-## Czego się nauczyłem
+## What I learned
 
-Zdobyłem doświadczenie w pracy w dużym, multidyscyplinarnym zespole oraz doświadczenie projektowe (design).
+I gained experience working in a large, multidisciplinary team, as well as design experience.
