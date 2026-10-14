@@ -136,8 +136,9 @@
       games.forEach(function (game) {
         var cover = el('img', { src: game.base + game.cover, alt: game.coverAlt || (game.title + ' cover'), loading: 'lazy' });
         if (game.coverPosition) cover.style.objectPosition = game.coverPosition;
-        var btn = el('button', { type: 'button', 'class': 'card', 'aria-label': 'Open ' + game.title }, [
+        var btn = el('button', { type: 'button', 'class': 'card', 'aria-label': 'Open ' + game.title + (game.tag ? ' (' + game.tag + ')' : '') }, [
           cover,
+          game.tag ? el('span', { 'class': 'tag', 'aria-hidden': 'true', text: game.tag }) : null,
           el('div', { 'class': 'info' }, [el('h3', { text: game.title }), el('p', { text: game.tagline })])
         ]);
         btn.addEventListener('click', function () { open(game, btn); });
