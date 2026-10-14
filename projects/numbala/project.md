@@ -1,7 +1,6 @@
 ---
 title: "Numbala"
 slug: "numbala"
-draft: true
 tagline: "Arcade math-training game for children, supporting dyscalculia therapy."
 status: "wydana"
 release_date: "2018-10"
@@ -11,7 +10,7 @@ genre: "arcade, educational"
 monetization: "premium"
 team_size: 10
 role: "Idea author and project owner: game design, level design and the scientific research behind the game, which resulted in a scientific publication."
-duration: "TODO: do uzupełnienia"
+duration: "pominięte"
 links:
   store_ios: ""
   store_android: ""
@@ -26,10 +25,10 @@ metrics:
     source: "Digital Dragons, Cracow, 2018 (laurels on the game's key art)"
   - label: "Independent Games Festival"
     value: "Finalist"
-    source: "TODO: do uzupełnienia (rok/edycja)"
+    source: "pominięte"
   - label: "App of the Day"
     value: "Apple App Store"
-    source: "TODO: do uzupełnienia (data promocji)"
+    source: "pominięte"
 media:
   cover: "media/cover.jpg"
   screens:
@@ -57,14 +56,14 @@ I was the idea author and project owner. I was responsible for game design and l
 
 ## Challenges and decisions
 
-TODO: do uzupełnienia
+pominięte
 
 ## Results
 
 - Indie Prize, Best Game Art, Casual Connect London, 2018.
 - Indie Showcase, Editor's Choice, Digital Dragons, Cracow, 2018.
-- Finalist at the Independent Games Festival. TODO: rok/edycja.
-- App of the Day on the Apple App Store. TODO: data promocji.
+- Finalist at the Independent Games Festival.
+- App of the Day on the Apple App Store.
 
 ## What I learned
 

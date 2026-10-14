@@ -1,17 +1,16 @@
 ---
 title: "Loop Train"
 slug: "loop-train"
-draft: true
 tagline: "Block-jam puzzle with a looping twist, themed around trains and their passengers."
 status: "wydana"
-release_date: "TODO: do uzupełnienia"
+release_date: "pominięte"
 platforms: [iOS, Android]
-engine: "TODO: do uzupełnienia"
+engine: "pominięte"
 genre: "block jam"
 monetization: "ads, rewarded video, IAP"
-team_size: 0 # TODO: do uzupełnienia
+team_size: "pominięte"
 role: "Project owner and lead designer: concept, level design, balance, monetization and graphics."
-duration: "TODO: do uzupełnienia"
+duration: "pominięte"
 links:
   store_ios: "https://apps.apple.com/pl/app/loop-train-3d/id6746925538?l=pl"
   store_android: "https://play.google.com/store/apps/details?id=com.bugbomb.looptrain&hl=pl"
@@ -19,13 +18,13 @@ links:
 metrics:
   - label: "D1 retention"
     value: "38%"
-    source: "TODO: do uzupełnienia"
+    source: "pominięte"
   - label: "D7 retention"
     value: "16%"
-    source: "TODO: do uzupełnienia"
+    source: "pominięte"
   - label: "D30 retention"
     value: "7.5%"
-    source: "TODO: do uzupełnienia"
+    source: "pominięte"
 media:
   cover: "media/cover.png"
   screens:
@@ -63,14 +62,14 @@ I was the project owner and lead designer. The concept, level design, balance an
 
 ## Challenges and decisions
 
-TODO: do uzupełnienia
+pominięte
 
 ## Results
 
-Retention: D1 38%, D7 16%, D30 7.5%. TODO: okres i źródło danych.
+Retention: D1 38%, D7 16%, D30 7.5%.
 
 Monetization: ads, rewarded video and IAP.
 
 ## What I learned
 
-TODO: do uzupełnienia
+pominięte

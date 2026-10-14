@@ -1,17 +1,16 @@
 ---
 title: "Bee Hunt 3D"
 slug: "bee-hunt-3d"
-draft: true
 tagline: "Puzzle game where tapping boxes sends bees out to clear voxels from a picture."
 status: "wydana"
-release_date: "TODO: do uzupełnienia"
+release_date: "pominięte"
 platforms: [iOS, Android]
-engine: "TODO: do uzupełnienia"
+engine: "pominięte"
 genre: "puzzle"
-monetization: "TODO: do uzupełnienia"
-team_size: 0 # TODO: do uzupełnienia
+monetization: "pominięte"
+team_size: "pominięte"
 role: "Level design consultant."
-duration: "TODO: do uzupełnienia"
+duration: "pominięte"
 links:
   store_ios: "https://apps.apple.com/si/app/bee-hunt-3d/id6805889460"
   store_android: "https://play.google.com/store/apps/details?id=com.bugbomb.beehunt&hl=pl"
@@ -19,7 +18,7 @@ links:
 metrics:
   - label: "D1 retention after the change"
     value: "22% -> 38%"
-    source: "TODO: do uzupełnienia (okres i źródło)"
+    source: "pominięte"
 media:
   cover: "media/cover.png"
   screens:
@@ -57,8 +56,8 @@ I worked as a level design consultant.
 
 ## Results
 
-Day-one retention went from 22% to 38%. TODO: okres i źródło danych.
+Day-one retention went from 22% to 38%.
 
 ## What I learned
 
-TODO: do uzupełnienia
+pominięte

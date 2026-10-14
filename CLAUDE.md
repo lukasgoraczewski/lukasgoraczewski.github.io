@@ -5,7 +5,8 @@ Treść powstaje na podstawie wywiadu z właścicielem, a materiały (grafiki, w
 
 ## Zasada nadrzędna
 - Używaj WYŁĄCZNIE informacji, które podał właściciel w wywiadzie lub które widać w plikach projektu.
-- Nie zmyślaj liczb, dat, nagród, nazw silników, ról ani wyników. Brakujące dane zapisz jako `TODO: do uzupełnienia`.
+- Nie zmyślaj liczb, dat, nagród, nazw silników, ról ani wyników. Brakujące dane, które właściciel jeszcze poda, zapisz jako `TODO: do uzupełnienia`.
+- Dane, które właściciel świadomie pominął (np. „pomiń", „nieistotne"), zapisz jako `pominięte`. Nie pytaj o nie ponownie i nie pokazuj ich na stronie.
 - Nie poprawiaj po cichu materiałów ani treści. Zgłaszaj problem i pytaj.
 
 ## Struktura repozytorium
@@ -25,11 +26,11 @@ title: ""              # nazwa gry
 slug: ""               # = nazwa folderu
 tagline: ""            # jedno zdanie, max 120 znaków
 status: ""             # wydana | w produkcji | prototyp | wycofana
-release_date: ""       # RRRR-MM lub TODO
+release_date: ""       # RRRR-MM, TODO lub pominięte
 platforms: []          # np. iOS, Android
 engine: ""             # silnik/narzędzia
 genre: ""
-monetization: ""       # np. premium, F2P/reklamy, IAP, TODO
+monetization: ""       # np. premium, F2P/reklamy, IAP, TODO lub pominięte
 team_size: 0
 role: ""               # co konkretnie robił właściciel
 duration: ""           # czas produkcji
@@ -40,7 +41,7 @@ links:
 metrics:               # tylko dane podane przez właściciela
   - label: ""
     value: ""
-    source: ""         # skąd liczba (np. App Store Connect, okres)
+    source: ""         # skąd liczba (np. App Store Connect, okres) lub pominięte
 media:
   cover: ""
   screens: []
@@ -56,6 +57,8 @@ captions: {}           # plik → podpis (opcjonalne)
 4. **Efekty** – tylko liczby podane przez właściciela, z okresem i źródłem.
 5. **Czego się nauczyłem** – opcjonalnie, 1–3 zdania.
 
+Sekcje, które właściciel pominął, zostają w pliku z wartością `pominięte` i nie trafiają na stronę.
+
 ## Ton i długość
 - Pierwsza osoba, rzeczowo, bez marketingowych przymiotników („rewolucyjny", „niesamowity").
 - Całość wpisu: 200–400 słów.
@@ -70,10 +73,12 @@ captions: {}           # plik → podpis (opcjonalne)
 
 ## Walidacja (wpis jest niekompletny, jeśli)
 - brakuje okładki lub alt-tekstu którejkolwiek grafiki,
+- jest mniej niż 3 screeny,
 - `slug` nie zgadza się z nazwą folderu,
-- zostały pola `TODO` w `title`, `status`, `platforms`, `role`,
-- liczby w `metrics` nie mają źródła.
-Niekompletny wpis oznacz `draft: true` i wypisz właścicielowi, czego brakuje.
+- w `title`, `status`, `platforms` lub `role` jest `TODO` albo brak wartości (tych pól nie można pominąć),
+- jakiekolwiek inne pole albo sekcja ma `TODO` (czyli właściciel jeszcze nie zdecydował).
+Pola i sekcje oznaczone `pominięte` nie czynią wpisu niekompletnym, także liczby w `metrics` bez źródła, jeśli właściciel zdecydował, że źródło pomija.
+Niekompletny wpis oznacz `draft: true` i wypisz właścicielowi, czego brakuje. Wpis bez żadnych braków nie ma `draft`.
 
 ## Czego nie robić
 - Nie generuj, nie przerabiaj i nie kompresuj materiałów właściciela bez pytania.

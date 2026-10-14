@@ -1,17 +1,16 @@
 ---
 title: "Word Finder 3D"
 slug: "word-finder-3d"
-draft: true
 tagline: "A relaxing 3D word-search game inspired by Boggle."
 status: "wycofana"
-release_date: "TODO: do uzupełnienia"
+release_date: "pominięte"
 platforms: [iOS, Android]
-engine: "TODO: do uzupełnienia"
+engine: "pominięte"
 genre: "word game"
 monetization: "ads, IAP"
-team_size: 0 # TODO: do uzupełnienia
+team_size: "pominięte"
 role: "Game design, level design, balance and art."
-duration: "TODO: do uzupełnienia"
+duration: "pominięte"
 links:
   store_ios: ""
   store_android: ""
@@ -19,13 +18,13 @@ links:
 metrics:
   - label: "D1 retention (best)"
     value: "42%"
-    source: "TODO: do uzupełnienia (okres i źródło)"
+    source: "pominięte"
   - label: "D7 retention (best)"
     value: "12%"
-    source: "TODO: do uzupełnienia (okres i źródło)"
+    source: "pominięte"
   - label: "Cumulative playtime over 3 days (best)"
     value: "60 min"
-    source: "TODO: do uzupełnienia (okres i źródło)"
+    source: "pominięte"
 media:
   cover: "media/cover.png"
   screens:
@@ -53,11 +52,11 @@ I did the game design, level design, balance and art.
 
 ## Challenges and decisions
 
-TODO: do uzupełnienia
+pominięte
 
 ## Results
 
-Best results, no period or source given yet:
+Best results:
 
 - D1 retention: 42%.
 - D7 retention: 12%.
@@ -67,4 +66,4 @@ Monetization: ads and IAP.
 
 ## What I learned
 
-TODO: do uzupełnienia
+pominięte
