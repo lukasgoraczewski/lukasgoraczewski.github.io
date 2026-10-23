@@ -1,8 +1,7 @@
+// The game cards are written into index.html by build.js (so the page reads
+// without JavaScript). This script only opens and closes the detail overlay.
 (function () {
-  var grid = document.getElementById('grid');
   var dialog = document.getElementById('detail');
-  var body = document.getElementById('detail-body');
-  var closeBtn = document.getElementById('close');
   var games = [];
   var lastCard = null;
 
@@ -15,6 +14,10 @@
     (children || []).forEach(function (c) { if (c) node.appendChild(c); });
     return node;
   }
+
+  // The overlay's content (including its close button) only exists while it is open.
+  var body = el('div', { id: 'detail-body' });
+  var closeBtn = el('button', { type: 'button', 'class': 'close', id: 'close', 'aria-label': 'Close', text: '×' });
 
   function youtubeEmbed(url) {
     var m = url.match(/(?:youtu\.be\/|v=|embed\/)([\w-]{11})/);
@@ -102,6 +105,9 @@
   function open(game, trigger) {
     lastCard = trigger || null;
     render(game);
+    dialog.textContent = '';
+    dialog.appendChild(closeBtn);
+    dialog.appendChild(body);
     if (!dialog.open) dialog.showModal();
     dialog.scrollTop = 0;
     if (location.hash !== '#' + game.slug) history.replaceState(null, '', '#' + game.slug);
@@ -110,6 +116,7 @@
   function cleanup() {
     body.querySelectorAll('video').forEach(function (v) { v.pause(); });
     body.textContent = '';
+    dialog.textContent = '';
     history.replaceState(null, '', location.pathname + location.search);
     if (lastCard) lastCard.focus();
   }
@@ -133,25 +140,16 @@
     .then(function (r) { return r.json(); })
     .then(function (data) {
       games = data.games || [];
-      games.forEach(function (game) {
-        var cover = el('img', { src: game.base + game.cover, alt: game.coverAlt || (game.title + ' cover'), loading: 'lazy' });
-        if (game.coverPosition) cover.style.objectPosition = game.coverPosition;
-        var btn = el('button', { type: 'button', 'class': 'card', 'aria-label': 'Open ' + game.title + (game.tag ? ' (' + game.tag + ')' : '') }, [
-          cover,
-          game.tag ? el('span', { 'class': 'tag', 'aria-hidden': 'true', text: game.tag }) : null,
-          el('div', { 'class': 'info' }, [el('h3', { text: game.title }), el('p', { text: game.tagline })])
-        ]);
-        btn.addEventListener('click', function () { open(game, btn); });
-        grid.appendChild(el('li', {}, [btn]));
+      var bySlug = {};
+      games.forEach(function (g) { bySlug[g.slug] = g; });
+      document.querySelectorAll('.card[data-slug]').forEach(function (btn) {
+        var game = bySlug[btn.getAttribute('data-slug')];
+        if (game) btn.addEventListener('click', function () { open(game, btn); });
       });
-      // How the last row of the 3-column layout is balanced (see style.css)
-      var n = games.length;
-      grid.dataset.layout = n === 1 ? 'single' : (n % 3 === 1 ? 'one' : (n % 3 === 2 ? 'two' : 'even'));
-      var hash = location.hash.slice(1);
-      var target = games.filter(function (g) { return g.slug === hash; })[0];
+      var target = bySlug[location.hash.slice(1)];
       if (target) open(target, null);
     })
     .catch(function () {
-      grid.appendChild(el('li', { text: 'Could not load the games list.' }));
+      // Cards stay readable; only the detail overlay is unavailable.
     });
 })();
