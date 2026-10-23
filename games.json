@@ -33,6 +33,41 @@
       ]
     },
     {
+      "slug": "bubble-bus",
+      "title": "Bubble Bus",
+      "tagline": "A color sorting game with a twist: drive buses, park them in the right spots and collect matching color bubbles.",
+      "base": "projects/bubble-bus/",
+      "cover": "media/cover.png",
+      "coverAlt": "Bubble Bus app icon: a yellow cartoon bus with eyes carrying a pile of colorful balls on its roof against a blue sky.",
+      "trailerFile": "",
+      "trailerUrl": "",
+      "screens": [
+        { "file": "media/screens/screen-01.png", "alt": "Level 772: a large bubble picture at the top, parking slots with a green truck in the middle and ice-covered numbered vehicles below, next to a smiling bus driver and the caption 'Stress reliever!'." },
+        { "file": "media/screens/screen-02.png", "alt": "Level 92: a bubble picture at the top and a parking area below with colored trucks showing direction arrows, with a driver holding a phone and the caption 'Endless fun!'." },
+        { "file": "media/screens/screen-03.png", "alt": "Level 724: orange bubbles flowing from the picture into trucks in the parking slots, with stone blocks and numbered vehicles below, a smiling driver with crossed arms and the caption 'Think fast!'." },
+        { "file": "media/screens/screen-04.png", "alt": "Level 78: a large bubble picture with several characters at the top and columns of colored trucks below, with a thoughtful driver and the caption 'Train your brain!'." },
+        { "file": "media/screens/screen-05.png", "alt": "Level 45: a bubble picture of a brown animal face at the top and a tangle of colored trucks pointing in different directions below, with skip level, shuffle, sort and VIP buttons." }
+      ],
+      "description": [
+        "Bubble Bus is a color sorting puzzle game with a twist. You drive buses, park them in the right spots and collect matching color bubbles. It is published by MOONEE, and it is live and still in development.",
+        "It has passed one million downloads on Google Play, holds 4.7 stars from over 30,000 App Store ratings, and has supported a user acquisition budget of over $5M."
+      ],
+      "role": "I am the head designer. I defined the design framework for the team and shaped how the game was designed as a whole.",
+      "metrics": [
+        { "label": "D1 retention (iOS, November 2025)", "value": "48%" },
+        { "label": "D7 retention (iOS, November 2025)", "value": "26%" },
+        { "label": "D30 retention (iOS, November 2025)", "value": "11%" },
+        { "label": "Downloads on Google Play", "value": "1M+" },
+        { "label": "App Store rating, 30,000+ ratings", "value": "4.7 ★" },
+        { "label": "User acquisition budget supported", "value": "$5M+" }
+      ],
+      "monetization": "Ads and IAP.",
+      "stores": [
+        { "type": "google-play", "url": "https://play.google.com/store/apps/details?id=com.bugbomb.dumptruckjam&hl=pl", "available": true },
+        { "type": "app-store", "url": "https://apps.apple.com/us/app/bubble-bus-parking-jam-puzzle/id6743441683", "available": true }
+      ]
+    },
+    {
       "slug": "loop-train",
       "title": "Loop Train",
       "tagline": "Block-jam puzzle with a looping twist, themed around trains and their passengers.",
