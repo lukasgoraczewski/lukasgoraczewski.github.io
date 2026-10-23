@@ -144,6 +144,9 @@
         btn.addEventListener('click', function () { open(game, btn); });
         grid.appendChild(el('li', {}, [btn]));
       });
+      // How the last row of the 3-column layout is balanced (see style.css)
+      var n = games.length;
+      grid.dataset.layout = n === 1 ? 'single' : (n % 3 === 1 ? 'one' : (n % 3 === 2 ? 'two' : 'even'));
       var hash = location.hash.slice(1);
       var target = games.filter(function (g) { return g.slug === hash; })[0];
       if (target) open(target, null);
