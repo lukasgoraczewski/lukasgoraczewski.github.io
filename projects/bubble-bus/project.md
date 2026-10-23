@@ -14,7 +14,7 @@ duration: "pominięte"
 links:
   store_ios: "https://apps.apple.com/us/app/bubble-bus-parking-jam-puzzle/id6743441683"
   store_android: "https://play.google.com/store/apps/details?id=com.bugbomb.dumptruckjam&hl=pl"
-  trailer_url: ""
+  trailer_url: "https://www.youtube.com/watch?v=op7vR3Botfk&t=1s"
 metrics:
   - label: "D1 retention (iOS)"
     value: "48%"
